@@ -1,0 +1,4 @@
+interface:
+  display_name: "日常社交对话训练"
+  short_description: "模拟同学、老师、陌生人、长辈等社交场景，角色扮演加简短教练点评"
+  default_prompt: "Use $social-conversation-trainer to practice a conversation with my classmate (入门) about borrowing notes."
