@@ -2,6 +2,18 @@
 
 一个通过角色扮演练习日常社交对话的 Codex Skill。Codex 在对话中扮演场景角色与你对话，同时以【教练提示】给出简短、可执行的改进建议。
 
+## English
+
+**Social Conversation Trainer** is a prompt-only Codex skill for practicing everyday social conversation through role-play.
+
+- Codex plays the scene character (classmate, teacher, stranger, elder) and replies in character, then gives a short coach tip after every turn
+- Three difficulty levels; higher difficulty makes characters colder and more challenging on purpose
+- After 4 counted turns you get a structured review: 1 strength plus 2-3 issues, each with a concrete rewrite suggestion
+- 12 built-in scenarios, language switching (e.g. English), control commands to retry, switch scenes or finish early
+- No scripts, no runtime dependencies: copy `social-conversation-trainer/` into `~/.codex/skills` and start a new Codex session
+
+Full documentation below is in Chinese; the skill itself can run entirely in English via the "切换语言：英语" command.
+
 ## 1. 项目解决什么问题
 
 很多人在真实社交场景中不知道如何开口，或措辞生硬、表达含糊、回应过短。这类能力缺少低成本、可重复的练习方式。
